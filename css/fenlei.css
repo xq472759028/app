@@ -1,0 +1,372 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-14 12:30:25
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-16 02:39:40
+*/
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 0.38rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+.yibu-logo{
+	width: 0.24rem;
+	height: 0.24rem;
+	/* background: blue; */
+	margin-left: 0.14rem;
+	margin-top: 0.07rem;
+}
+.yibu-center{
+	width: 2.26rem;
+	height: 0.24rem;
+	/* background: blue; */
+	margin-top: 0.07rem;
+	border-top-left-radius: 0.1rem;
+	display: flex;
+}
+.yibu-right{
+	width: 0.14rem;
+	height: 0.12rem;
+	/* background: blue; */
+	margin-right: 0.16rem;
+	margin-top: 0.12rem;
+
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: red;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+}
+.iconfont1{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #666;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.15rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.sousuo{
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #f4f4f4;
+	/* float: left; */
+	border-top-left-radius: 0.03rem;
+	border-bottom-left-radius: 0.03rem;
+}
+/* .yibu-center-right{
+	width: 2.02rem;
+	height: 0.24rem;
+	background: pink;
+	float: right;
+	
+} */
+.yibu-center input{
+	width: 2.02rem;
+	height: 0.24rem;
+	background: #f4f4f4;
+	/* border: 2px solid red; */
+	margin: 0 auto;
+	font-size: 0.12rem;
+	
+	border: 0;
+	border-top-right-radius: 0.03rem;
+	border-bottom-right-radius: 0.03rem;
+
+}
+input:focus{
+ 	outline: none;
+ 	border: none;
+ }
+ .yibu-right img{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ /* 头部结束 */
+ /* 一部开始 */
+ .erbu{
+ 	display: flex;
+ 	font-size: 0.14rem;
+ 	color: #333333;
+ 	margin: 0.42rem 0 0.08rem 0.14rem;
+ }
+ /* 二部开始 */
+ /* 三部开始 */
+ .sanbu{
+ 	width: 100%;
+ 	height: 4.2rem;
+ 	/* background: red; */
+ 	display: flex;
+ 	flex-wrap: wrap;
+
+ }
+ .sanbu-box{
+ 	width: 25%;
+ 	height: 1.06rem;
+ 	/* background: blue; */
+ 	border-top: 0.01rem solid #eeeeee;
+ 	border-right: 0.01rem solid #eeeeee;
+ }
+ .sanbu li:nth-child(4n){
+ 	border-right: 0;
+ }
+ .sanbu li:nth-child(12)~li{
+ 	border-bottom: 0.01rem solid #eeeeee;
+ }
+ .sanbu-tu{
+ 	width: 100%;
+ 	height: 0.83rem;
+ 	/* background: green; */
+ 	display: block;
+ }
+ .sanbu-tu img{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .sanbu-word{
+ 	width: 100%;
+ 	height: 0.23rem;
+ 	/* background: pink; */
+ 	display: block;
+ 	color: #666666;
+ 	font-size: 0.12rem;
+ 	line-height: 0.12rem;
+ 	text-align: center;
+ }
+ /* 三部结束 */
+ /* 十部开始 */
+.shibu-box{
+	width: 100%;
+	height: 0.33rem;
+	/* background: yellowgreen; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	/* border-top:0.03rem solid #666; */
+}
+.shibu{
+	width: 0.3rem;
+	height: 0.18rem;
+	/* background: blue; */
+	/* border-bottom: 0.02rem solid #ff3366; */
+	margin:0.11rem 0.38rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #666666;
+	
+}
+.shibu-box .shibu:first-child{
+	color: #ff3366;
+	border-bottom: 0.02rem solid #ff3366;
+}
+/* 十部结束 */
+/* 十一部开始 */
+.shiyi{
+	width: 100%;
+	height: 2.6rem;
+	/* background: yellowgreen; */
+	/* margin-top: 0.1rem; */
+	display: flex;
+	justify-content: space-between;
+	
+}
+.shiyibu{
+	width: 1.54rem;
+	height: 2.4rem;
+	/* background: yellowgreen; */
+	margin: 0.03rem 0.03rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shiyi-box{
+	width: 1.54rem;
+	height: 2rem;
+	/* background: pink; */
+	display: block;
+}
+.shiyi-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shiyi-box1{
+	width: 1.54rem;
+	height: 0.26rem;
+	/* background: blue; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shiyi-box2{
+	width: 1.54rem;
+	height: 0.12rem;
+	/* background: gold; */
+	display: block;
+	font-size: 0.12rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.12rem;
+}
+.shiyi-box3{
+	width: 0.75rem;
+	height: 0.12rem;
+	/* background: gold; */
+	align-self: center;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.12rem;
+	line-height: 0.12rem
+}
+.shiyi-box3 .shiyi-box4{
+	color: #ff3366;
+}
+.shiyi-box3 .shiyi-box5{
+	color: #9999a5;
+}
+
+
+/* 十一部结束 */
+/* 十一部开始 */
+.shier{
+	width: 100%;
+	height: 2.6rem;
+	/* background: yellowgreen; */
+	/* margin-top: 0.1rem; */
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.52rem;
+	
+}
+.shierbu{
+	width: 1.54rem;
+	height: 2.4rem;
+	/* background: yellowgreen; */
+	margin: 0.03rem 0.03rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shier-box{
+	width: 1.54rem;
+	height: 2rem;
+	/* background: pink; */
+	display: block;
+}
+.shier-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shier-box1{
+	width: 1.54rem;
+	height: 0.26rem;
+	/* background: blue; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shier-box2{
+	width: 1.54rem;
+	height: 0.12rem;
+	/* background: gold; */
+	display: block;
+	font-size: 0.12rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.12rem;
+}
+.shier-box3{
+	width: 0.75rem;
+	height: 0.12rem;
+	/* background: gold; */
+	align-self: center;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.12rem;
+	line-height: 0.12rem
+}
+.shier-box3 .shier-box4{
+	color: #ff3366;
+}
+.shier-box3 .shier-box5{
+	color: #9999a5;
+}
+
+
+/* 十一部结束 */
+/* 第十三部开始 */
+.shisan{
+	width: 100%;
+	height: 0.52rem;
+	background: #fff;
+	border-top: 1px solid #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+}
+.shisan-box{
+	width: 0.37rem;
+	height: 0.37rem;
+	/* background: red; */
+	margin: 0.06rem 0.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shisan-box1{
+	width: 0.24rem;
+	height: 0.21rem;
+	/* background: blue; */
+	align-self: center;
+	display: block;
+}
+.iconfont3{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #666;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+}
+.shisan-box2{
+	width: 0.37rem;
+	height: 0.12rem;
+	/* background: blue; */
+	font-size: 0.12rem;
+	color: #999;
+	text-align: center;
+	line-height: 0.12rem;
+	display: block;
+}
+.shisan :nth-child(2).shisan-box .a2{
+	color: #ff3366;
+}
+.shisan :hover:nth-child(1).shisan-box .a1,
+.shisan :hover:nth-child(3).shisan-box .a3,
+.shisan :hover:nth-child(4).shisan-box .a4{
+	color: #ff3366;
+}
+/* 第十三部结束 */

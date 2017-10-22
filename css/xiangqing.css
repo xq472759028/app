@@ -1,0 +1,609 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 21:10:25
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-21 17:10:48
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.38rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+.yibu-logo{
+	width: 0.24rem;
+	height: 0.24rem;
+	/* background: blue; */
+	margin: 0 0.14rem;
+	margin-top: 0.07rem;
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #999;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.14rem;
+	line-height: 0.24rem;
+	text-align: center;
+}
+/* 头部结束 */
+/* 二部开始 */
+.erbu{
+	width: 100%;
+	height: 4.9rem;
+	/* background: red; */
+	margin-top: 0.38rem;
+	border-bottom: 0.01rem solid #999;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.erbu-box{
+	/* width: 100%; */
+	height: 3.71rem;
+	margin-left: 0.09rem;
+}
+.erbu-box1{
+	height: 0.32rem;
+	margin: 0 0.15rem;
+	/* background: yellowgreen; */
+	font-size: 0.14rem;
+	line-height: 0.14rem;
+}
+.erbu-box2{
+	font-size: 0.14rem;
+	color: #ff9599;
+	line-height: 0.14rem;
+	margin: 0 0.15rem;
+}
+.erbu-box3{
+	margin: 0 0.15rem 0.08rem 0.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.erbu-box4{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #999;
+}
+/* 二部结束 */
+/* 三怒开始 */
+.sanbu{
+	width: 100%;
+	height: 0.56rem;
+	/* background: yellowgreen; */
+	border-bottom: 0.04rem solid #f2f5f8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sanbu-left{
+	width: 2.16rem;
+	height: 0.12rem;
+	/* background: red; */
+	margin-left: 0.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sanbu-left-box{
+	width: 0.61rem;
+	height: 0.12rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+}
+.sanbu-left-box:last-child{
+	width: 0.72rem;
+}
+.sanbu-left-box1{
+	width: 0.12rem;
+	height: 0.12rem;
+}
+.iconfont1{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #999;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	text-align: center;
+}
+.sanbu-left-box2{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: black;
+}
+.sanbu-right{
+	width: 0.12rem;
+	height: 0.12rem;
+	margin-right: 0.15rem;
+}
+/* 三部结束 */
+/* 四部开始 */
+.sibu{
+	width: 100%;
+	height: 0.93rem;
+	/* background: yellowgreen; */
+	border-bottom: 0.04rem solid #f2f5f8;
+	overflow: hidden;
+}
+.sibu-top{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: black;
+	margin:0.15rem 0 0 0.15rem;
+}
+.sibu-bottom{
+	width: 2.47rem;
+	height: 0.38rem;
+	/* background: red; */
+	margin: 0.07rem 0 0.17rem 0.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sibu-bottom-tu{
+	width: 0.77rem;
+	height: 0.38rem;
+	display: block;
+}
+.sibu-bottom-tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 四部结束 */
+/* 五部开始 */
+.wubu{
+	width: 100%;
+	height: 1.83rem;
+	/* background: blue; */
+	overflow: hidden;
+	border-bottom: 0.04rem solid #f2f5f8;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wubu-top{
+	height: 0.4rem;
+	margin: 0.18rem 0.15rem 0;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wubu-top-left{
+	width: 1.02rem;
+	height: 0.4rem;
+	/* background: yellowgreen; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wubu-top-left-tu{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.wubu-top-left-tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.top-left-word{
+	font-size: 0.14rem;
+	line-height: 0.14rem;
+	color: black;
+}
+.wubu-top-right{
+	width: 0.55rem;
+	height: 0.21rem;
+	border-radius: 0.2rem;
+	background: #ff6699;
+	font-size: 0.12rem;
+	line-height: 0.21rem;
+	color: #fff;
+	text-align: center;
+}
+.wubu-center{
+	width: 2.64rem;
+	height: 0.52rem;
+	/* background: yellowgreen; */
+	margin-left: 0.18rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.wubu-center-box{
+	width: 0.5rem;
+	height: 0.39rem;
+	margin: 0.07rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.wubu-center-box1{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: black;
+}
+.wubu-center-box2{
+	width: 0.01rem;
+	height: 0.46rem;
+	/* background: yellow; */
+}
+.wubu-center-box3{
+	width: 0.9rem;
+	height: 0.52rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+}
+.wubu-center-box4{
+	width: 0.48rem;
+	height: 0.52rem;
+	/* background: pink; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wubu-center-box5{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	column-rule: black;
+}
+.wubu-center-box6{
+	width: 0.38rem;
+	height: 0.52rem;
+	/* background: pink; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wubu-center-box7{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #f13e3a;
+}
+.wubu-bottom{
+	width: 1.28rem;
+	height: 0.25rem;
+	/* background: #f2f5f8; */
+	border-radius: 0.2rem;
+	margin-bottom: 0.18rem;
+	font-size: 0.12rem;
+	color: black;
+	line-height: 0.25rem;
+	text-align: center;
+	align-self: center;
+}
+/* 五部结束 */
+/* 六部开始 */
+.liubu{
+	font-size: 0.12rem;
+	color: black;
+	line-height: 0.12rem;
+	margin: 0.13rem 0 0.13rem 0.15rem;
+}
+/* 六部结束 */
+/* 七部开始 */
+.qibu{
+	width: 100%;
+	height: 2.92rem;
+	/* background: yellow; */
+}
+.qibu-box{
+	width: 2.96rem;
+	height: 2.68rem;
+	/* background: red; */
+	margin: 0 auto;
+	display:flex;
+	flex-wrap: wrap;
+}
+.qibu-lie{
+	width: 25%;
+	height: 1.31rem;
+	border-right: 0.03rem solid #fff;
+	/* background: blue; */
+}
+.qibu-lie:nth-child(4n){
+	border-right: 0;
+}
+.qibu-lie-tu{
+	width: 100%;
+	height: 1.09rem;
+	/* background: seagreen; */
+	display: block;
+}
+.qibu-lie-tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.qibu-lie-word{
+	width: 100%;
+	height: 0.22rem;
+	/* background: yellow; */
+	display: block;
+	font-size: 0.1rem;
+	line-height: 0.22rem;
+	color: #5e5e5e;
+	text-align: center;
+}
+.qibu-yuan{
+	width: 0.72rem;
+	height: 0.06rem;
+	/* background: blue; */
+	margin: 0.1rem auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.xiaoyuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #999;
+	border-radius: 50%;
+	margin-right: 0.1rem;
+}
+.qibu-yuan li:last-child{
+	margin-right: 0;
+}
+.qibu-yuan li:first-child{
+	color: #fc7837;
+}
+/* 七部结束 */
+/* 八部开始 */
+.babu{
+	width: 100%;
+	height: 0.47rem;
+	border-bottom: 0.01rem solid #999;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.babu li{
+	height: 0.12rem;
+	width: 25%;
+	font-size: 0.12rem;
+	color: black;
+	line-height: 0.12rem;
+	border-right: 0.01rem solid #999;
+	padding-right: 0.11rem;
+	margin-left: 0.13rem;
+}
+.babu li a{
+	color: black;
+}
+.babu li:last-child{
+	border-right: 0;
+}
+/* 八部结束 */
+/* 就不开始 */
+.jiubu{
+	width: 100%;
+	height: 1.48rem;
+	/* background: blue; */
+	overflow: hidden;
+}
+.jiubu-word{
+	font-size: 0.12rem;
+	line-height: 0.24rem;
+	color: #727272;
+	margin: 0.33rem 0.15rem 0.27rem;
+}
+.jiubu-word1{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #727272;
+	margin: 0 0 0.1rem 0.15rem;
+}
+/* 九部结束 */
+
+/* Tab栏开始 */
+.shibu{
+	width: 100%;
+	height: 0.48rem;
+	background: #fff;
+	position: fixed;
+	justify-content: space-between;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+	display: flex;
+}
+.shibu-left{
+	width: 1.6rem;
+	height: 0.36rem;
+	background: #fff;
+	margin-top: 0.08rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shibu-left li{
+	width: 0.24rem;
+	height: 0.36rem;
+	/* background: green; */
+	margin: 0 0.14rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+.icon{
+	width: 0.18rem;
+	height: 0.18rem;
+}
+.iconfont5{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #999;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	text-align: center;
+}
+.shibu-left li:first-child .iconfont5{
+	color: red;
+}
+.shibu-left li:nth-child(2):hover .iconfont5,
+.shibu-left li:last-child:hover .iconfont5{
+	color: red;
+}
+.shibu-word{
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #999;
+	display: block;
+}
+.shibu-right{
+	width: 1.6rem;
+	height: 100%;
+	/* background:green; */
+	display: flex;
+}
+.shibu-right li{
+	width: 50%;
+	height: 100%;
+	background: #ffe817;
+	font-size: 0.14rem;
+	line-height: 0.48rem;
+	text-align: center;
+}
+.shibu-right li:last-child{
+	background: #ff6699;
+	color: #fff;
+}
+.shibu-right li:last-child a{
+	color: #fff;
+}
+.shibu-right li:first-child a{
+	color: black;
+}
+/* Tab栏结束 */
+/* 十部开始 */
+.shiyibu{
+	width: 100%;
+	height: auto;
+}
+.shiyibu-list{
+	width: 100%;
+	height: 0.16rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #dfdfdf;
+	/* margin-bottom: 0.48rem; */
+	display: flex;
+	justify-content: space-between;
+}
+.shiyibu-list li{
+	font-size: 0.06rem;
+	margin: 0 0.14rem;
+	line-height: 0.14rem;
+	text-align: center;
+}
+/* .shiyibu-list:last-child{
+	margin-bottom: 0.18rem;
+} */
+.shiyibu-list:first-child{
+	background: #c0c0c0;
+}
+/* 十部结束 */
+/* 十二部开始 */
+.shier p{
+	margin: 0.14rem;
+	font-size: 0.06rem;
+}
+/* 十二部结束 */
+/* 十三部开始 */
+.shisan{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.shisan img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 十三部结束 */
+/* 十四部开始 */
+.shisi{
+	width: 100%;
+	height: auto;
+	padding-top: 0.1rem;
+}
+.shisi p{
+	font-size: 0.12rem;
+	margin: 0 0.14rem;
+	color: #999999;
+	line-height: 0.20rem;
+}
+/* 十四部结束 */
+/* 事务部开始 */
+.shiwu{
+	width: 100%;
+	height: 42px;
+	border-top: 0.04rem solid #f2f5f8;
+	border-bottom: 0.02rem solid #f2f5f8;
+	margin-top: 0.2rem;
+	font-size: 0.12rem;
+	color: #111;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shiwu-goumai{
+	margin-left: 0.14rem;
+}
+.shiwu-gengduo{
+	margin-right: 0.14rem;
+}
+.shiwu:last-child{
+	margin-bottom: 0.48rem;
+}
+/* 事务部结束 */
+/* 十六步开始 */
+.shiliu{
+	width: 100%;
+	height: auto;
+}
+.shiliu p{
+	margin-left: 0.14rem;
+	margin-right: 0.14rem;
+	font-size: 0.12rem;
+	color: #111;
+	line-height: 0.20rem;
+}
+.shiliu-box p{
+	line-height: 0.3rem;
+	font-size: 0.12rem;
+	color: #111;
+}
+.shiliu-box{
+	width: 100%;
+	height: 0.3rem;
+	margin-left: 0.14rem;
+	/* margin-right: 0.14rem; */
+}
+
+.shiliu img{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	float: left;
+	margin-top: 0.04rem;
+	margin-right: 0.04rem;
+
+}
+/* 十六步结束 */

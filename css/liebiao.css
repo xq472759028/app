@@ -1,0 +1,310 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 12:32:52
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-21 16:27:22
+*/
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 0.38rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+.yibu-logo i{
+	/* width: 0.24rem;
+	height: 0.24rem; */
+	/* background: blue; */
+	margin-left: 0.14rem;
+	margin-top: 0.07rem;
+	font-size: 0.14rem;
+}
+.yibu-center{
+	width: 2.26rem;
+	height: 0.24rem;
+	/* background: blue; */
+	margin-top: 0.07rem;
+	border-top-left-radius: 0.1rem;
+	display: flex;
+}
+.yibu-right{
+	width: 0.14rem;
+	height: 0.12rem;
+	/* background: blue; */
+	margin-right: 0.16rem;
+	margin-top: 0.12rem;
+
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #999999;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+}
+.iconfont1{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #666;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.15rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.sousuo{
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #f4f4f4;
+	/* float: left; */
+	border-top-left-radius: 0.03rem;
+	border-bottom-left-radius: 0.03rem;
+}
+/* .yibu-center-right{
+	width: 2.02rem;
+	height: 0.24rem;
+	background: pink;
+	float: right;
+	
+} */
+.yibu-center input{
+	width: 2.02rem;
+	height: 0.24rem;
+	background: #f4f4f4;
+	/* border: 2px solid red; */
+	margin: 0 auto;
+	font-size: 0.12rem;
+	
+	border: 0;
+	border-top-right-radius: 0.03rem;
+	border-bottom-right-radius: 0.03rem;
+
+}
+input:focus{
+ 	outline: none;
+ 	border: none;
+ }
+ .yibu-right img{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ /* 一部结束 */
+ /* 二部开始 */
+ .erbu{
+ 	width: 100%;
+ 	height: 0.24rem;
+ 	background: #fff;
+ 	margin-top: 0.38rem;
+ 	padding-bottom: 0.02rem;
+ 	font-size: 0.14rem;
+ 	line-height: 0.14rem;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: flex-end;
+ 	position: fixed;
+ 	z-index: 999;
+ 	left: 0;
+ 	top: 0;
+ }
+ .erbu-box2,
+ .erbu-box3,
+ .erbu-box4{
+ 	color: #999;
+ }
+ .erbu-box1{
+ 	margin-left: 0.15rem;
+ 	color: #ef4562;
+ }
+  .erbu-box4{
+ 	margin-right: 0.15rem;
+ }
+ .erbu-box2:hover,
+ .erbu-box3:hover,
+ .erbu-box4:hover{
+ 	color: #ef4562;
+ }
+ /* 二部结束 */
+ /* 三部开始 */
+ .sanbu{
+ 	width: 100%;
+ 	height: 2.53rem;
+ 	/* background: red; */
+ 	margin-top: 0.14rem;
+ 	display: flex;
+ }
+.sanbu:last-child{
+  	margin-top:5.2rem;
+  }
+ .sanbu-box{
+ 	width: 50%;
+ 	height: 2.53rem;
+ 	/* background: blue; */
+ 	margin: 0  0.04rem 0 0.04rem;
+ }
+ .sanbu-box img{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .sanbu-box:nth-child(2){
+ 	margin: 0  0.04rem 0 0;
+ }
+ .sanbu-box-top{
+ 	width: 100%;
+ 	height: 1.99rem;
+ 	/* background: green; */
+ }
+ .sanbu-box-bottom{
+ 	width: 100%;
+ 	height: 0.46rem;
+ 	/* background: pink; */
+ 	margin-top: 0.06rem;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+ .sanbu-box-word{
+ 	font-size: 0.12rem;
+ 	color: black;
+ 	line-height:0.12rem;
+ 	text-align: center; 
+ }
+ .sanbu-box-word1{
+ 	width: 0.77rem;
+ 	height: 0.09rem;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .sanbu-box-word3{
+ 	font-size: 0.1rem;
+ 	color: #ff3395;
+ 	line-height: 0.10rem;
+ }
+ .sanbu-box-word4{
+ 	font-size: 0.1rem;
+ 	color: #999;
+ 	line-height: 0.10rem;
+ 	text-decoration: line-through;
+ }
+ .sanbu-box-word2{
+ 	font-size: 0.12rem;
+ 	color: #999;
+ 	line-height: 0.12rem;
+ }
+ /* 三部结束 */
+/* 三部开始 */
+ .sibu{
+ 	width: 100%;
+ 	height: 2.53rem;
+ 	/* background: red; */
+ 	margin-top: 0.76rem;
+ 	display: flex;
+ }
+
+ .sibu-box{
+ 	width: 50%;
+ 	height: 2.53rem;
+ 	/* background: blue; */
+ 	margin: 0  0.04rem 0 0.04rem;
+ }
+ .sibu-box img{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .sibu-box:nth-child(2){
+ 	margin: 0  0.04rem 0 0;
+ }
+ .sibu-box-top{
+ 	width: 100%;
+ 	height: 1.99rem;
+ 	/* background: green; */
+ }
+ .sibu-box-bottom{
+ 	width: 100%;
+ 	height: 0.46rem;
+ 	/* background: pink; */
+ 	margin-top: 0.06rem;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+ .sibu-box-word{
+ 	font-size: 0.12rem;
+ 	color: black;
+ 	line-height:0.12rem;
+ 	text-align: center; 
+ }
+ .sibu-box-word1{
+ 	width: 0.77rem;
+ 	height: 0.09rem;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .sibu-box-word3{
+ 	font-size: 0.1rem;
+ 	color: #ff3395;
+ 	line-height: 0.10rem;
+ }
+ .sibu-box-word4{
+ 	font-size: 0.1rem;
+ 	color: #999;
+ 	line-height: 0.10rem;
+ 	text-decoration: line-through;
+ }
+ .sibu-box-word2{
+ 	font-size: 0.12rem;
+ 	color: #999;
+ 	line-height: 0.12rem;
+ }
+ /* 三部结束 */
+ .shisan{
+	width: 100%;
+	height: 0.52rem;
+	/* background: #fff; */
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+	margin-top: 0.52rem;
+}
+.shisan-box{
+	width: 0.37rem;
+	height: 0.37rem;
+	/* background: red; */
+	margin: 0.06rem 0.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.shisan-box1{
+	width: 0.24rem;
+	height: 0.21rem;
+	/* background: blue; */
+	align-self: center;
+	display: block;
+}
+.iconfont3{
+	font-family: 'iconfont';
+	font-style: normal;
+	color: orange;
+	font-weight: bolder;
+	display: block;
+	font-size: 0.2rem;
+	line-height: 0.21rem;
+	text-align: center;
+}
